@@ -170,6 +170,9 @@ body > div{
   .cover-container {
     width: 42rem;
   }
+}
+
+@media (max-width: 30em){
   *{
     font-size: 14px;
   }
