@@ -164,6 +164,9 @@ body {
   .cover-container {
     width: 42rem;
   }
+  *{
+    font-size: 14px;
+  }
 }
 
 h3#counter{
