@@ -4,6 +4,6 @@ $(document).ready(function(){
 });
 
 function update(){
-  $("#counter").html(countdown( new Date(2017, 10, 14) ).toString());
+  $("#counter").html(countdown( new Date(2017, 9, 14) ).toString());
   setTimeout(function(){ update(); }, 1000);
 }
