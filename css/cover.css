@@ -38,6 +38,12 @@ body {
   background-repeat: no-repeat;
 }
 
+body > div{
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,180,255,0.5);
+}
+
 #logo{
   width: 100%;
 }
