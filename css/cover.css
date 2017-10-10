@@ -165,3 +165,7 @@ body {
     width: 42rem;
   }
 }
+
+h2#counter{
+  font-weight: bold;
+}
