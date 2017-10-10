@@ -1,4 +1,9 @@
 $(document).ready(function(){
   $("#counter").html("Carregando contador...");
-  $("#counter").html(countdown( new Date(2017, 10, 14) ).toString());
+  update();
 });
+
+function update(){
+  $("#counter").html(countdown( new Date(2017, 10, 14) ).toString());
+  setTimeout(function(){ update(); }, 1000);
+}
