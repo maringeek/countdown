@@ -7,7 +7,7 @@ $(document).ready(function(){
   update();
   var easter_egg = new Konami(function() {   
     $("body").attr("id","vitas");
-    gandalfAudio.stop();
+    gandalfAudio.pause();
     vitasAudio.play();
   });
 });
