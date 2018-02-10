@@ -6,12 +6,9 @@ $(document).ready(function(){
   $("#counter").html("Carregando contador...");
   update();
   var easter_egg = new Konami(function() {   
-    alert(k.witch);
-    if(k.witch == 18){
-      $("body").attr("id","vitas");
-      gandalfAudio.stop();
-      vitasAudio.play();
-    }
+    $("body").attr("id","vitas");
+    gandalfAudio.stop();
+    vitasAudio.play();
   });
 });
 
