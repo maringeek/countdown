@@ -10,13 +10,13 @@ $(document).ready(function(){
       case 0:
       case 1:
         if(k.witch == 38){
-          etapa++;
+          console.log("Etapa: "+etapa++);
         }
         break;
       case 2:
       case 3:
         if(k.witch == 40){
-          etapa++;
+          console.log("Etapa: "+etapa++);
         }else{
           etapa = 0;
         }
@@ -24,7 +24,7 @@ $(document).ready(function(){
       case 4:
       case 6:
         if(k.witch == 37){
-          etapa++;
+          console.log("Etapa: "+etapa++);
         }else{
           etapa = 0;
         }
@@ -32,21 +32,21 @@ $(document).ready(function(){
       case 5:
       case 7:
         if(k.witch == 39){
-          etapa++;
+          console.log("Etapa: "+etapa++);
         }else{
           etapa = 0;
         }
         break;
       case 8:
         if(k.witch == 66){
-          etapa++;
+          console.log("Etapa: "+etapa++);
         }else{
           etapa = 0;
         }
         break;
       case 9:
         if(k.witch == 65){
-          etapa++;
+          console.log("Etapa: "+etapa++);
           deuOCodigo();
         }else{
           etapa = 0;
