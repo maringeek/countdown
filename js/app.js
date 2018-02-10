@@ -1,5 +1,5 @@
-var gandalfAudio = getElementById("gandalf");
-var vitasAudio = getElementById("vitas");
+var gandalfAudio = document.getElementById("gandalf");
+var vitasAudio = document.getElementById("vitas");
 
 $(document).ready(function(){
   $("#counter").html("Carregando contador...");
