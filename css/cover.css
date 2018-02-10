@@ -38,6 +38,10 @@ body {
   background-repeat: no-repeat;
 }
 
+body#vitas{
+  background-image: url(../img/vitas.gif);
+}
+
 body > div{
   width: 100vw;
   height: 100vh;
