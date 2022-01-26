@@ -13,6 +13,6 @@ $(document).ready(function(){
 });
 
 function update(){
-  $("#counter").html(countdown( new Date(2020, 6, 7, 12, 00, 0) ).toString());
+  $("#counter").html(countdown( new Date(2022, 2, 15, 12, 00, 0) ).toString());
   setTimeout(function(){ update(); }, 1000);
 }
